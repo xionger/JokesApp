@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.8.0_9d125c84b22db97ffa150f7da5d5df7fcef06fea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_9eb2b007fa43df0410f55c7998953f63ba513d21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.8.0_6579f31561007cb0e96b80e95f44c5fc291fb5ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_27e6855c0975f1f11ede8616a5c2e5553045a332.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_95462c98b89871051e5bc54a4d10b131da58ef55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_517549a039361b4350bbcec07b4e1d9560723231.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_694399e2cb69dce99a1ccc8c55146254fb17e28d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_a3ef6242ad64ddd2511645114cf88f62dc0d1fdc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.8.0_8ca575b0a625cf91b632d6f7662631a8cd7d91d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.8.0_99da463c7dff6644ea33ea88edc446d2d26131a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_17d24f5fa7de94552431edc7009dcf956ca9e3bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_732ced4c17a9d3147f9dddfdc3ab3b3f6091c420.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_808bd1c5cba633ddbb3f286a353f7db14820b8b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.8.0_469f936c18972fe3c818ae7909b261955f316db5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.8.0_a376057b16f2dd9bec12bf91bf114096dfb1a7b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_8c3208df4fdf9593c296a86f67c599ca3a314bf9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_13a8270ebbdca61387a8cef36a750ea3f4e1a28c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.8.0_5690d1eead0c5cce26cb40337e664cf81eb2131d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/javaJokes/build/libs/javaJokes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="296583cdc732c69fcbd6605474ac2fc985123348">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/javaJokes_21c6e18a2ed025bba059b9e7e3291b40b8209da0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_8ef1c1e133e3a90318fb6217ec16301961f95e10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_0fcad9269ad563a7ec2ab0ae81d7a8e70fb61ccb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_0c99913bce8397e7b8c6899a5b9c4b2b978e2e48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_46fc3bc8f05fe27ec0349287481ea6ebddc9abf2.jar" />
+    </item>
+
+</items>
