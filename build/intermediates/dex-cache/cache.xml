@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Howardx/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_631a4ca81e097bca0b4d775f1a783a678041a8cf.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -36,6 +27,60 @@
         revision="24.0.3"
         sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
         <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.8.0_6579f31561007cb0e96b80e95f44c5fc291fb5ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_db061f150681a5ae4947ffee0680be7428b686f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.2_d96644183c973540680a72f9f02879bf5ff98bcf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/javaJokes/build/libs/javaJokes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c55430e07b67272cf336c49b7a227b4503004b85">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/javaJokes_21c6e18a2ed025bba059b9e7e3291b40b8209da0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_93efced65c67eb63a0cb3e8e8fc10ffb8a4fe5e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_8a34dd5fbbeb7ccca3e784e3e57c630c6434e4e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_631a4ca81e097bca0b4d775f1a783a678041a8cf.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,15 +129,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_db061f150681a5ae4947ffee0680be7428b686f3.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -120,24 +156,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/JokesApp/androidjokes/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="0e52ff0d8691de63aa7862321be975348b901b6f">
-        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/JokesApp-androidjokes-unspecified_d7a7c984abd442ffde3bb1e103c29d5c20188842.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.2_d96644183c973540680a72f9f02879bf5ff98bcf.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -147,21 +165,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Howardx/Documents/adn/JokesApp/javaJokes/build/libs/javaJokes.jar"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/JokesApp/androidjokes/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="4e8a873e65a3e578fcf8c480a7e002bcb719a70e">
-        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/javaJokes_21c6e18a2ed025bba059b9e7e3291b40b8209da0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_93efced65c67eb63a0cb3e8e8fc10ffb8a4fe5e8.jar" />
+        sha1="0e52ff0d8691de63aa7862321be975348b901b6f">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/JokesApp-androidjokes-unspecified_d7a7c984abd442ffde3bb1e103c29d5c20188842.jar" />
     </item>
     <item
         is-multidex="false"
@@ -171,15 +180,6 @@
         revision="24.0.3"
         sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
         <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_7eccd16cab4e7be692200433d6fa940315b8aae7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_8a34dd5fbbeb7ccca3e784e3e57c630c6434e4e8.jar" />
     </item>
     <item
         is-multidex="false"
