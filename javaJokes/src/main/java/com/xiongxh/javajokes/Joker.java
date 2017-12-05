@@ -2,7 +2,13 @@ package com.xiongxh.javajokes;
 
 public class Joker {
 
-    public String tellJokes(){
-        return "This is funny joke!";
+    private String[] jokes = {"first joke", "seconde joke"};
+
+    public String[] tellJokes(){
+        return jokes;
+    }
+
+    public String tellJoke(){
+        return "This is a unique joke!";
     }
 }

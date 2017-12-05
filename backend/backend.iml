@@ -40,6 +40,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="javaJokes" exported="" />
     <orderEntry type="library" exported="" name="appengine-endpoints-1.9.42" level="project" />
     <orderEntry type="library" exported="" name="appengine-endpoints-deps-1.9.42" level="project" />
     <orderEntry type="library" exported="" name="servlet-api-2.5" level="project" />

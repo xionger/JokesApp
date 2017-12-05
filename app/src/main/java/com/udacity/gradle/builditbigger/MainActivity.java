@@ -8,21 +8,18 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.udacity.gradle.builditbigger.async.AsyncResponse;
+import com.udacity.gradle.builditbigger.async.RetrieveJokesAsyncTask;
 import com.xiongxh.androidjokes.ShowJokeActivity;
-import com.xiongxh.javajokes.Joker;
+//import com.xiongxh.javajokes.Joker;
 
 
-public class MainActivity extends AppCompatActivity {
-
-    private String mJoke;
+public class MainActivity extends AppCompatActivity implements AsyncResponse{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        Joker joker = new Joker();
-        mJoke = joker.tellJokes();
     }
 
 
@@ -49,11 +46,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        //Toast.makeText(this, mJoke, Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, ShowJokeActivity.class);
-        intent.putExtra(ShowJokeActivity.INTENT_MAIN_JOKE, mJoke);
-        startActivity(intent);
+        new RetrieveJokesAsyncTask(this).execute(this);
     }
 
 
+    @Override
+    public void processJokes(String out) {
+        Intent intent = new Intent(this, ShowJokeActivity.class);
+        intent.putExtra(ShowJokeActivity.INTENT_MAIN_JOKE, out);
+        startActivity(intent);
+    }
 }
