@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements AsyncResponse{
     }
 
     public void tellJoke(View view) {
-        new RetrieveJokesAsyncTask(this).execute(this);
+        new RetrieveJokesAsyncTask(this).execute();
     }
 
 

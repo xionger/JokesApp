@@ -14,9 +14,9 @@ import java.io.IOException;
 
 import static android.R.attr.name;
 
-public class RetrieveJokesAsyncTask extends AsyncTask<Context, Void, String>{
+public class RetrieveJokesAsyncTask extends AsyncTask<Void, Void, String>{
     private MyApi mMyApiService = null;
-    private Context mContext;
+    //private Context mContext;
     public AsyncResponse mDelegate = null;
 
     public RetrieveJokesAsyncTask(AsyncResponse delegate){
@@ -24,7 +24,7 @@ public class RetrieveJokesAsyncTask extends AsyncTask<Context, Void, String>{
     }
 
     @Override
-    protected String doInBackground(Context... params) {
+    protected String doInBackground(Void... params) {
         if(mMyApiService == null) {  // Only do this once
             MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(),
                     new AndroidJsonFactory(), null)
@@ -43,7 +43,7 @@ public class RetrieveJokesAsyncTask extends AsyncTask<Context, Void, String>{
             mMyApiService = builder.build();
         }
 
-        mContext = params[0];
+        //mContext = params[0];
 
         try {
             return mMyApiService.getJoke().execute().getData();
