@@ -31,6 +31,7 @@ android {
         }
         paid {
             manifest.srcFile 'src/paid/AndroidManifest.xml'
+            java.srcDirs = ['src/paid/java', 'src/paid/java/']
         }
     }
 

@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.udacity.gradle.builditbigger.paid.JokeMainFragment">
+    tools:context="com.udacity.gradle.builditbigger.JokeMainFragment">
 
     <TextView
         android:id="@+id/instructions_text_view"
