@@ -39,6 +39,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/free/debug/com.android.support-support-compat-25.3.1_d4ca26dfc23401e22f81ede08c97b9e4eb37e533.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/Howardx/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.23.0/fd6761f4046a8cb0455e6fa5f58e12b061e9826e/google-http-client-jackson2-1.23.0.jar"
         jumboMode="false"
         optimize="true"
@@ -48,12 +57,48 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/Howardx/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/free/debug/support-annotations-25.3.1_21a39f59b231289037abb4b73345b54dab3c64fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/free/debug/com.android.support-support-core-ui-25.3.1_ec2f92ebaf5500ce5fd997c8699e80932e15a4e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/free/debug/com.android.support-support-v4-25.3.1_55d38755e0257d07ffed1144f28b708aa1a2e585.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/Howardx/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
         sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
         <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/jsr305-2.0.1_f53c3d1f12df13cea05db56ca03f33197e2105c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/free/debug/com.android.support-support-core-utils-25.3.1_871f5ea9ba9857efad744154a9bb05dc50040aff.jar" />
     </item>
     <item
         is-multidex="false"
@@ -165,12 +210,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/free/debug/com.android.support-support-fragment-25.3.1_369aaa4135e51e73ac07b15fc33da4089aaaa660.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/Howardx/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.23.0/b95521559faf49989ff036a5b15fd16476bdc955/google-api-client-android-1.23.0.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
         sha1="b95521559faf49989ff036a5b15fd16476bdc955">
         <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/debug/google-api-client-android-1.23.0_3dbbb058b7cc2e892c5a3f8fd29aa70ac9220a3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/free/debug/com.android.support-support-media-compat-25.3.1_b073a92ce232c9acecff59daeae7bd024fd29da6.jar" />
     </item>
     <item
         is-multidex="false"
