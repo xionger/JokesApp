@@ -1,6 +1,7 @@
 package com.udacity.gradle.builditbigger;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
@@ -55,8 +56,22 @@ public class MainActivityFragment extends Fragment implements AsyncResponse {
     }
 
     public void tellJoke(){
+        updateLoading(true);
+
         asyncTask = new RetrieveJokesAsyncTask(this);
         asyncTask.execute();
+    }
+
+    public void updateLoading(boolean loading){
+        if (loading){
+            mInstTextView.setVisibility(View.INVISIBLE);
+            mTellJokeButton.setVisibility(View.INVISIBLE);
+            mLoadingBar.setVisibility(View.VISIBLE);
+        } else {
+            mInstTextView.setVisibility(View.VISIBLE);
+            mTellJokeButton.setVisibility(View.VISIBLE);
+            mLoadingBar.setVisibility(View.INVISIBLE);
+        }
     }
 
     @Override
@@ -68,5 +83,22 @@ public class MainActivityFragment extends Fragment implements AsyncResponse {
         Intent intent = new Intent(getActivity(), ShowJokeActivity.class);
         intent.putExtra(ShowJokeActivity.INTENT_MAIN_JOKE, out);
         startActivity(intent);
+    }
+
+    @Override
+    public void onStart(){
+        super.onStart();
+        if (asyncTask == null || asyncTask.getStatus() == AsyncTask.Status.FINISHED){
+            updateLoading(false);
+        }
+    }
+
+    @Override
+    public void onDestroyView(){
+        super.onDestroyView();
+        mTellJokeButton.setOnClickListener(null);
+        if (asyncTask != null){
+            asyncTask.cancel(true);
+        }
     }
 }

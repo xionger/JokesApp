@@ -169,7 +169,7 @@
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="441e29ef57fea03649b08347c1aad70d9eb8af64">
+        sha1="cf49ef29ca53b144725b8c2d50f8eb2b2503e2d4">
         <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/free/debug/JokesApp-androidjokes-unspecified_d7a7c984abd442ffde3bb1e103c29d5c20188842.jar" />
     </item>
     <item
@@ -178,7 +178,7 @@
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="e6a644346b79016c9e2e18d561906a50298d5fab">
+        sha1="3cf6964773dbc8411f1100307c0ca33567e3b1a6">
         <dex dex="/Users/Howardx/Documents/adn/JokesApp/app/build/intermediates/pre-dexed/free/debug/backend-android-endpoints_792420dd76344c41b624e5e159e4f91a4057875f.jar" />
     </item>
     <item

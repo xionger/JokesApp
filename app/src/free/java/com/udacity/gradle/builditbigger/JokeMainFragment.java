@@ -86,4 +86,11 @@ public class JokeMainFragment extends MainActivityFragment {
         interstitialAd.loadAd(adRequest);
     }
 
+    @Override
+    public void onDestroyView(){
+        super.onDestroyView();
+
+        interstitialAd.setAdListener(null);
+    }
+
 }
