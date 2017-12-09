@@ -2,7 +2,6 @@ package com.udacity.gradle.builditbigger;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,17 +9,14 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class JokeMainFragment extends MainActivityFragment {
 
-    protected TextView mInstTextView;
-    protected Button mTellJokeButton;
-    protected ProgressBar mLoadingBar;
+    protected InterstitialAd interstitialAd;
 
     public JokeMainFragment() {
         // Required empty public constructor
@@ -36,17 +32,28 @@ public class JokeMainFragment extends MainActivityFragment {
         mInstTextView = (TextView) root.findViewById(R.id.instructions_text_view);
         mTellJokeButton = (Button) root.findViewById(R.id.btn_joke_tell);
 
-        mTellJokeButton.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view){
-                tellJoke();
-            }
-        });
-
         mLoadingBar = (ProgressBar) root.findViewById(R.id.bar_loading);
         mLoadingBar.setVisibility(View.INVISIBLE);
 
-        AdView mAdView = (AdView) root.findViewById(R.id.adView);
+        mTellJokeButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                if (interstitialAd.isLoaded()){
+                    interstitialAd.show();
+                }else {
+                    tellJoke();
+                }
+            }
+        });
+
+        addBannerAd(root);
+        addInterstitialAd();
+
+        return root;
+    }
+
+    public void addBannerAd(View view){
+        AdView mAdView = (AdView) view.findViewById(R.id.adView);
         // Create an ad request. Check logcat output for the hashed device ID to
         // get test ads on a physical device. e.g.
         // "Use AdRequest.Builder.addTestDevice("ABCDEF012345") to get test ads on this device."
@@ -54,9 +61,29 @@ public class JokeMainFragment extends MainActivityFragment {
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
                 .build();
         mAdView.loadAd(adRequest);
-        mAdView.setVisibility(View.VISIBLE);
+    }
 
-        return root;
+    public void addInterstitialAd(){
+        interstitialAd = new InterstitialAd(getActivity());
+        interstitialAd.setAdUnitId(getString(R.string.interstitial_ad_id));
+        interstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                //super.onAdClosed();
+                requestInterstitialAd();
+                tellJoke();
+            }
+        });
+
+        requestInterstitialAd();
+    }
+
+    public void requestInterstitialAd(){
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
+
+        interstitialAd.loadAd(adRequest);
     }
 
 }
