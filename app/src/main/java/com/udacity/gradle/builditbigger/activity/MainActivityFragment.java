@@ -1,4 +1,4 @@
-package com.udacity.gradle.builditbigger;
+package com.udacity.gradle.builditbigger.activity;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.udacity.gradle.builditbigger.R;
 import com.udacity.gradle.builditbigger.async.AsyncResponse;
 import com.udacity.gradle.builditbigger.async.RetrieveJokesAsyncTask;
 import com.xiongxh.androidjokes.ShowJokeActivity;

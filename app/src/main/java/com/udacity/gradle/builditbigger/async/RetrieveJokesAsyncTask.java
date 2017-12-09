@@ -16,7 +16,6 @@ import static android.R.attr.name;
 
 public class RetrieveJokesAsyncTask extends AsyncTask<Void, Void, String>{
     private MyApi mMyApiService = null;
-    //private Context mContext;
     public AsyncResponse mDelegate = null;
 
     public RetrieveJokesAsyncTask(AsyncResponse delegate){
@@ -42,8 +41,6 @@ public class RetrieveJokesAsyncTask extends AsyncTask<Void, Void, String>{
 
             mMyApiService = builder.build();
         }
-
-        //mContext = params[0];
 
         try {
             return mMyApiService.getJoke().execute().getData();

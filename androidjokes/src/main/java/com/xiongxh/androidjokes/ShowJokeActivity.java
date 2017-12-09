@@ -16,7 +16,6 @@ public class ShowJokeActivity extends AppCompatActivity {
         String jokeFromMain = getIntent().getStringExtra(INTENT_MAIN_JOKE);
         TextView jokeView = (TextView) findViewById(R.id.tv_intent_joke);
 
-        //Toast.makeText(this, jokeFromMain, Toast.LENGTH_SHORT).show();
         jokeView.setText(jokeFromMain);
     }
 }

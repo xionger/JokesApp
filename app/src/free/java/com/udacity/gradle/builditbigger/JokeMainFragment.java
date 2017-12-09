@@ -14,13 +14,13 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 
+import com.udacity.gradle.builditbigger.activity.MainActivityFragment;
+
 public class JokeMainFragment extends MainActivityFragment {
 
     protected InterstitialAd interstitialAd;
 
-    public JokeMainFragment() {
-        // Required empty public constructor
-    }
+    public JokeMainFragment() {}
 
     @NonNull
     @Override
@@ -69,7 +69,6 @@ public class JokeMainFragment extends MainActivityFragment {
         interstitialAd.setAdListener(new AdListener() {
             @Override
             public void onAdClosed() {
-                //super.onAdClosed();
                 requestInterstitialAd();
                 tellJoke();
             }

@@ -50,14 +50,16 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-
-    //compile project(':javaJokes')
-    compile project(':androidjokes')
-    compile project(path: ':backend', configuration: 'android-endpoints')
-    compile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:25.1.0'
-    compile 'com.google.android.gms:play-services-ads:9.8.0'
     compile 'com.google.code.findbugs:jsr305:2.0.1'
     compile 'com.android.support:support-v4:25.3.1'
+    compile 'junit:junit:4.12'
     testCompile 'junit:junit:4.12'
+
+    //compile modules
+    compile project(':androidjokes')
+    compile project(path: ':backend', configuration: 'android-endpoints')
+
+    //for free version only
+    freeCompile 'com.google.android.gms:play-services-ads:9.8.0'
 }
